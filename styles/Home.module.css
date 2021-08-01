@@ -1,0 +1,37 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #BBC7E6;
+}
+
+.container form {
+  background-color: #FFF;
+  border-radius: 20px;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container form input {
+  min-width: 320px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid #BBC7E6;
+  margin-bottom: 24px;
+  padding: 0 16px;
+}
+
+.container form button {
+  height: 40px;
+  width: 100%;
+  background-color: #1f2752;
+  border-radius: 6px;
+  color: #FFF;
+  border: 0;
+  font-weight: 700;
+}
